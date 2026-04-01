@@ -1,0 +1,8 @@
+#while loop
+
+bana dost x = 1
+
+jab tak dost x <= 5
+    bata dost x
+    x = x + 1
+bas dost

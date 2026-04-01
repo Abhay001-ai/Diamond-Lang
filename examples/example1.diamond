@@ -1,0 +1,6 @@
+bana dost x = 3
+agar dost x >= 4
+    likh dost "bada"
+nahi to dost
+    likh dost "chota"
+bas dost

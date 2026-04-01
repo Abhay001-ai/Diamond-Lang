@@ -1,0 +1,51 @@
+.documentation {
+  padding: 40px 20px;
+  width: 80vw;
+  margin: 0 auto;
+  background: #1e1e1e;
+  color: #f3f3f3;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 8px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.documentation h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #00ffe1;
+}
+
+.documentation h3 {
+  margin-top: 30px;
+  font-size: 22px;
+  color: #91faff;
+}
+
+.documentation p, .documentation ul {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.documentation code {
+  background: #2d2d2d;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #fcd34d;
+}
+
+.documentation pre {
+  background: #2a2a2a;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: monospace;
+  color: #a2ffcc;
+}
+
+.documentation pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+}

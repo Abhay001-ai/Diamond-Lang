@@ -1,0 +1,12 @@
+#funtion
+
+kaam dost square(x)
+    wapas dost x*x
+bas dost
+
+kaam dost cube(x)
+    wapas dost x * x *x 
+bas dost
+
+bana dost ans= bula dost cube(5) * bula dost cube(5) 
+bata dost ans

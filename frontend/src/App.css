@@ -1,0 +1,89 @@
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #020816;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+}
+
+/* Full width container, centered visually */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* Horizontally center content */
+  justify-content: flex-start;
+  padding: 2rem;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.logo{
+  width: 300px;
+  height: 300px;
+}
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.button-bar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  width: 100%;
+  max-width: 960px;
+  margin-bottom: 1rem;
+}
+
+.run-btn,
+.clear-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.run-btn {
+  background-color: #ff5722;
+  color: white;
+}
+
+.run-btn:hover {
+  background-color: #e64a19;
+}
+
+.clear-btn {
+  background-color: #ffcccb;
+  color: black;
+}
+
+.clear-btn:hover {
+  background-color: #fbbbbb;
+}
+
+.editor-box {
+  width: 85vw;
+  max-width: 960px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.output-box {
+  width: 85vw;
+  max-width: 960px;
+  background-color: black;
+  color: #4caf50;
+  font-family: monospace;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  white-space: pre-wrap;
+}

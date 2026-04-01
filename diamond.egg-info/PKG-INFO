@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: diamond
+Version: 0.1
+Summary: A custom scripting language called Diamond Lang
+Author: Your Name
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Dynamic: author
+Dynamic: classifier
+Dynamic: requires-python
+Dynamic: summary
