@@ -5,7 +5,6 @@ print("💎 Diamond Lang REPL")
 print("Type `exit dost` to quit.\n")
 
 repl_scope = Scope()
-
 BLOCK_STARTERS = ("kaam dost", "agar dost", "warna dost", "jab tak dost", "ghum dost")
 
 buffer = []
