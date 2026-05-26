@@ -4,7 +4,6 @@ import re
 NUMBER, IDENTIFIER, OPERATOR, LPAREN, RPAREN, EOF = (
     'NUMBER', 'IDENTIFIER', 'OPERATOR', 'LPAREN', 'RPAREN', 'EOF'
 )
-
 # Token specification for basic expressions
 token_specification = [
     ('STRING',   r'"[^"\n]*"'),               # Double-quoted string
