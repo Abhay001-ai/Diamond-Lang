@@ -8,7 +8,6 @@ loop_context = {
     'continue': False,
     'return_value': None
 }
-
 class Scope:
     def __init__(self, parent=None):
         self.variables = {}
