@@ -3,7 +3,6 @@
 def tokenize(code):
     tokens = []
     lines = code.splitlines()
-
     for lineno, line in enumerate(lines, start=1):
         line = line.strip()
 
