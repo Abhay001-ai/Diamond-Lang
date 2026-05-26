@@ -6,7 +6,6 @@ import uuid
 
 app = Flask(__name__)
 CORS(app)  # 🔥 this must come after the app is defined
-
 TEMP_DIR = "temp"
 os.makedirs(TEMP_DIR, exist_ok=True)
 
